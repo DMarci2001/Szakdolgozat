@@ -33,7 +33,7 @@ rownames(comparison2_df) <- NULL
 
 percentcomp <- comparison2_df$output1/comparison2_df$output2*100
 
-percentcomp2 <- data.frame(comparison2_df, percentcomp2)
+percentcomp2 <- data.frame(comparison2_df, percentcomp)
 
 #A percentcomp3 dataframe alkalmas a kimutatásra
 
